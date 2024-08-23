@@ -21,7 +21,11 @@
     <ol>
         <li><strong>Clone the Repository:</strong>
             <pre><code>git clone https://github.com/hamnamohi/System-Verilog-Template.git
-cd System-Verilog-Template</code></pre>
+cd System-Verilog-Template
+cd rtl</code></pre>
+        </li>
+        <li><strong>Delete the obj Directory (if it exists):</strong> Clean up the environment by deleting the <code>obj_dir</code> directory:
+            <pre><code>rm -rf obj_dir</code></pre>
         </li>
         <li><strong>Run the Simulation:</strong> Execute the bash script to compile and run the simulation, and generate the waveform file:
             <pre><code>bash run_simulation_dtb.sh</code></pre>
@@ -29,6 +33,8 @@ cd System-Verilog-Template</code></pre>
             <ul>
                 <li>Compile the SystemVerilog code and testbench.</li>
                 <li>Run the simulation to produce a VCD file.</li>
-             
+            </ul>
+        </li>
+    </ol>
 </body>
 </html>
